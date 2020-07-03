@@ -49,8 +49,6 @@ public class DeviceLocation implements LocationListener {
         inaccurateLocationList = new ArrayList<>();
         kalmanNGLocationList = new ArrayList<>();
         kalmanFilter = new KalmanLatLong(3);
-
-        startUpdatingLocation();
     }
 
     public int getMinimumAccuracy() {
@@ -73,16 +71,10 @@ public class DeviceLocation implements LocationListener {
 
     @Override
     public void onProviderDisabled(String provider) {
-        startUpdatingLocation();
     }
 
     @Override
     public void onProviderEnabled(String provider) {
-        try {
-            locationManager.requestLocationUpdates(provider, 0, 0, this);
-        } catch (SecurityException e) {
-
-        }
     }
 
     @Override
