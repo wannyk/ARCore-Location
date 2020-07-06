@@ -22,7 +22,7 @@ public class DeviceLocation implements LocationListener {
 
     public DeviceLocation(LocationScene locationScene) {
         this.locationScene = locationScene;
-        requestLocationUpdates();
+        // requestLocationUpdates();
     }
 
 
