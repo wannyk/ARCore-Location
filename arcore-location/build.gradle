@@ -62,7 +62,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.android.gms:play-services-location:15.0.1'
 
-    implementation "com.google.ar.sceneform:core:1.7.0"
-    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.7.0"
+    implementation "com.google.ar.sceneform:core:1.15.0"
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
 }
 
