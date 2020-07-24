@@ -58,11 +58,11 @@ public class LocationScene {
         this.mSession = mArSceneView.getSession();
         this.mArSceneView = mArSceneView;
 
-        startCalculationTask();
+        // startCalculationTask();
 
         deviceLocation = new DeviceLocation(this);
         deviceOrientation = new DeviceOrientation(this);
-        deviceOrientation.resume();
+        // deviceOrientation.resume();
     }
 
     public int getAnchorRefreshInterval() {
