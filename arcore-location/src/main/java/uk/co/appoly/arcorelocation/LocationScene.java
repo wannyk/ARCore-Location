@@ -169,8 +169,8 @@ public class LocationScene {
                     // When pointing device upwards (camera towards sky)
                     // the compass bearing can flip.
                     // In experiments this seems to happen at pitch~=-25
-                    if (deviceOrientation.pitch > -25)
-                        rotation = rotation * Math.PI / 180;
+                    // if (deviceOrientation.pitch > -25)
+                    //     rotation = rotation * Math.PI / 180;
 
                     int renderDistance = markerDistance;
 
