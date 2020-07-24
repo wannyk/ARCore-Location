@@ -226,6 +226,7 @@ public class LocationScene {
                 }
 
             }
+            Log.i(TAG, "Location Scene refreshed.");
         }
     }
 
